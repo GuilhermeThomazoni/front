@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+
+body {
+  background-color: rgb(43, 43, 43);
+  margin: 0;
+}
+header {
+  background-image: radial-gradient(
+    circle at -16.62% 44.17%,
+    #dcb744 0,
+    #e5af41 5.56%,
+    #eea740 11.11%,
+    #f59c40 16.67%,
+    #fa9141 22.22%,
+    #ff8444 27.78%,
+    #ff7547 33.33%,
+    #ff644c 38.89%,
+    #ff5152 44.44%,
+    #ff3858 50%,
+    #fb1160 55.56%,
+    #f50069 61.11%,
+    #ed0075 66.67%,
+    #e40082 72.22%,
+    #d80090 77.78%,
+    #ca009f 83.33%,
+    #b800ae 88.89%,
+    #a300bd 94.44%,
+    #8912cb 100%
+  );
+  color: rgba(212, 212, 212, 0.973);
+}
+header.loona_header {
+  background-image: url("./imagens.html/choerry.png");
+  background-size: cover;
+  background-position: 0 -150px;
+}
+nav {
+  text-align: center;
+  height: 15px;
+  background-image: linear-gradient(
+    to right,
+    #70288c,
+    #7900bb,
+    #6d00cc,
+    #5000c8,
+    #5216e0
+  );
+}
+
+.menu:visited {
+  color: white;
+}
+
+.menu:hover {
+  color: rgb(226, 226, 226);
+}
+
+.menu {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+h1 {
+  margin: 0;
+  padding-block: 5rem;
+}
+.tituloheader {
+  margin-left: 50px;
+  position: relative;
+  top: 0.5rem;
+  color: white;
+  font-family: "Ysabeau SC";
+  text-align: center;
+  font-size: 2.5rem;
+  
+}
+.titulobaixo {
+  position: relative;
+  top: 15px;
+  color: white;
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 40px;
+}
+
+.titulogrupo{
+    margin-left: 50px;
+    position: relative;
+    top:40px;
+    font-family: "Nunito";
+    color: white;
+    font-size: 40px;
+
+}
+.loona_header h1 {
+  background-image: linear-gradient(
+  to right,
+  #8709a7 0%,
+  #600eae 25%,
+  rgba(137, 6, 169, 0) 41.67%,
+  rgba(116, 0, 145, 0) 44.44%,
+  rgba(53, 0, 91, 0) 47.22%,
+  rgba(0, 0, 0, 0) 100%);
+  font-family:"Noto Serif KR";
+  padding-left: 2rem;
+  font-size: 7.7rem;
+}
+.card {
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+  text-decoration: 0;
+  background-image: radial-gradient(
+    circle at -16.62% 44.17%,
+    #dcb744 0,
+    #e5af41 5.56%,
+    #eea740 11.11%,
+    #f59c40 16.67%,
+    #fa9141 22.22%,
+    #ff8444 27.78%,
+    #ff7547 33.33%,
+    #ff644c 38.89%,
+    #ff5152 44.44%,
+    #ff3858 50%,
+    #fb1160 55.56%,
+    #f50069 61.11%,
+    #ed0075 66.67%,
+    #e40082 72.22%,
+    #d80090 77.78%,
+    #ca009f 83.33%,
+    #b800ae 88.89%,
+    #a300bd 94.44%,
+    #8912cb 100%
+  );
+  border-radius: 18px;
+  height: 300px;
+  width: 400px;
+}
+
+.imgcard {
+  position: relative;
+  top: 25px;
+  height: 220px;
+  border-radius: 12px;
+}
+
+.textocard {
+  font-family: "Montserrat";
+  position: relative;
+  top: -3.3rem;
+  color: rgb(218, 218, 218);
+}
+.maincard {
+  text-align: center;
+}
+.jesuscristo {
+  position: absolute;
+  margin-top: -67px;
+  margin-left: 370px;
+ width: 1550px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("./imagens.html/choerry.png");
+    background-repeat: no-repeat;
+}
+.tituloloona{
+    color: white;
+    font-family: "Montserrat";
+    padding-left: 7rem;
+    padding-top: 6rem;
+}
+p{
+    color: white;
+    font-family: "Montserrat";
+    margin-top: -10px;
+    padding-left: 3rem;
+    font-size: 1.7rem;
+}
+.laembaixo{
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.musicasfoda{
+    color: white;
+    font-family: "Montserrat";
+    padding-left: 75rem;
+    margin-top: -20rem;
+    font-size: 1.7rem;
+
+}
+.divisao{
+    margin-left: 57rem;
+    margin-top: -13rem;
+}

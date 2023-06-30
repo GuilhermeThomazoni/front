@@ -35,7 +35,7 @@ header {
   color: rgba(212, 212, 212, 0.973);
 }
 header.loona_header {
-  background-image: url("./imagens.html/choerry.png");
+  background-image: url("choerry.png");
   background-size: cover;
   background-position: 0 -150px;
 }

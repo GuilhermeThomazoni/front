@@ -20,9 +20,11 @@ background: linear-gradient(90deg,
   color: rgba(212, 212, 212, 0.973);
 }
 .loona_header {
+
   background-image: url("./assets/choerry.png");
   background-size: cover;
   background-position: 0 -150px;
+ 
 }
 .loona_header h1 {
   background-image: linear-gradient(
@@ -36,6 +38,7 @@ background: linear-gradient(90deg,
   font-family:"Noto Serif KR";
   padding-left: 2rem;
   font-size: 7.7rem;
+  
 }
 
 .dreamcatcher_header{
@@ -224,6 +227,7 @@ h1 {
 }
 .maincard {
   text-align: center;
+  padding-bottom: 1rem;
 }
 .jesuscristo {
   position: absolute;
@@ -271,4 +275,8 @@ p{
 @media only screen and (max-device-width: 1200px) {
   /* .menu { width:100%; } */
   }
+
+.footer{
+  padding-top: 5rem;
+}
 
